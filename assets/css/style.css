@@ -1,0 +1,48 @@
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+/* Individual grid item */
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+/* Text overlay */
+.grid-item .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+/* Initial color overlay */
+.grid-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease;
+}
+
+/* Hover effect */
+.grid-item:hover::before {
+    background: rgba(0, 0, 0, 0);
+}
+
+.grid-item:hover .content {
+    color: #fff;
+}
