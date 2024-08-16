@@ -6,13 +6,14 @@
     padding: 20px;
 }
 
-/* Individual grid item */
+/* Individual grid item (Square format) */
 .grid-item {
     position: relative;
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    height: 300px;
+    width: 100%; /* Ensures that the width fills the column */
+    padding-bottom: 100%; /* Makes the height equal to the width for a square format */
 }
 
 /* Text overlay */
