@@ -1273,7 +1273,7 @@ body.is-preload #bg:before {
 	margin-top: 3.5rem;
 }
 
-#header > *:before {
+/* #header > *:before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -1282,7 +1282,7 @@ body.is-preload #bg:before {
 	width: 1px;
 	height: calc(3.5rem + 1px);
 	background: #ffffff;
-}
+} */
 
 #header > :first-child {
 	margin-top: 0;
