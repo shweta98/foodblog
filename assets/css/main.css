@@ -1259,7 +1259,7 @@ body.is-preload #bg:before {
 	background-image: -moz-radial-gradient(rgba(4, 4, 4, 0.122) 25%, rgba(6, 6, 6, 0.136) 55%);
 	background-image: -webkit-radial-gradient(rgba(1, 1, 1, 0.104) 25%, rgba(4, 4, 4, 0.077) 55%);
 	background-image: -ms-radial-gradient(rgba(11, 11, 11, 0.111) 25%, rgba(2, 2, 2, 0.103) 55%);
-	background-image: radial-gradient(rgba(230, 192, 214, 0.917) 25%, rgba(0, 0, 0, 0) 55%);
+	background-image: radial-gradient(rgba(234, 204, 222, 0.917) 25%, rgba(0, 0, 0, 0) 55%);
 	max-width: 100%;
 	text-align: center;
 }
