@@ -1292,6 +1292,7 @@ body.is-preload #bg:before {
 	display: none;
 }
 
+/*
 #header .logo {
 	width: 7rem;
 	height: 7rem;
@@ -1300,16 +1301,18 @@ body.is-preload #bg:before {
 	border-radius: 100%;
 	margin-bottom: -3rem;
 }
+*/
 
+/*
 #header .logo .icon:before {
 	font-size: 2rem;
 }
-
+*/
 #header .content {
 	border-style: solid;
 	border-color: #ffffff;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
+	/*border-top-width: 1px;
+	border-bottom-width: 1px;*/
 	max-width: 100%;
 	padding-top: 4rem;
 }
@@ -1453,7 +1456,7 @@ body.is-preload #header .content .inner {
 		top: calc(-2rem - 1px);
 		height: calc(2rem + 1px);
 	}
-
+/*
 	#header .logo {
 		width: 4.75rem;
 		height: 4.75rem;
@@ -1463,7 +1466,7 @@ body.is-preload #header .content .inner {
 	#header .logo .icon:before {
 		font-size: 1.75rem;
 	}
-
+*/
 	#header .content .inner {
 		padding: 2.5rem 1rem;
 	}
