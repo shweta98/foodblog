@@ -1496,6 +1496,8 @@ body.is-preload #footer {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 3px;
     padding: 3px;
+	margin: 0 auto; /* Center the grid container */
+    max-width: 1200px; /* Limit the maximum width */
 }
 
 
