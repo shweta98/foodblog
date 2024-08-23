@@ -1267,6 +1267,10 @@ body.is-preload #bg:before {
     margin-top: 1rem;
 }
 
+#header nav {
+    margin-bottom: 30px; /* Adjust the value to increase or decrease space */
+}
+
 #header nav ul {
     display: flex;
     margin-bottom: 0;
@@ -1490,8 +1494,8 @@ body.is-preload #footer {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 20px;
-    padding: 20px;
+    grid-gap: 3px;
+    padding: 3px;
 }
 
 
