@@ -32,19 +32,19 @@
 
         <!-- Main Content -->
         <div class="grid-container">
-            <div class="grid-item">
+            <div class="grid-item" onclick="openModal('images/drinks/icedmatcha.jpg', 'Iced Matcha Latte', 'This is the recipe for Iced Matcha Latte...')">
                 <img src="images/drinks/icedmatcha.jpg" alt="Iced Matcha Latte">
                 <div class="content">
                     <h2>Iced Matcha Latte</h2>
                 </div>
             </div>
-            <div class="grid-item">
+            <div class="grid-item" onclick="openModal('images/drinks/cardamomrose.jpg', 'Iced Cardamom Rose Latte', 'This is the recipe for Iced Cardamom Rose Latte...')">
                 <img src="images/drinks/cardamomrose.jpg" alt="Iced Cardamom Rose Latte">
                 <div class="content">
                     <h2>Iced Cardamom Rose Latte</h2>
                 </div>
             </div>
-            <div class="grid-item">
+            <div class="grid-item" onclick="openModal('images/drinks/haileybiebersmoothie.jpg', 'Hailey Bieber Smoothie', 'This is the recipe for Hailey Bieber Smoothie...')">
                 <img src="images/drinks/haileybiebersmoothie.jpg" alt="Hailey Bieber Smoothie">
                 <div class="content">
                     <h2>Hailey Bieber Smoothie</h2>
@@ -59,6 +59,20 @@
         </footer>
 
     </div>
+
+    <!-- Modal Structure -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-left">
+                <img src="images/drinks/icedmatcha.jpg" alt="Iced Matcha Latte" id="modalImage">
+            </div>
+            <div class="modal-right">
+                <h2 id="modalTitle">Iced Matcha Latte</h2>
+                <p id="modalDescription">This is where the recipe description will go.</p>
+            </div>
+        </div>
+    </div>
    
     <!-- BG -->
     <div id="bg"></div>
@@ -69,6 +83,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/modal.js"></script> <!-- Link to your modal.js file -->
 
 </body>
 </html>
